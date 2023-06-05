@@ -1,0 +1,114 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      list-style: none;
+      font-family: Arial, Helvetica, sans-serif;
+      border: none;
+      outline: none;
+}
+
+::-webkit-scrollbar {
+      display: none;
+}
+
+/* ===== DATA INPUT ===== */
+
+.input-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px;
+}
+
+.input-form form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.input-form form h1 {
+      font-size: 36px;
+      margin-bottom: 100px;
+}
+
+.input-form form .input-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+}
+
+.input-form form .input-wrapper label {
+      font-weight: 600;
+}
+
+.input-form form .input-wrapper .red {
+      color: red;
+}
+
+.input-form form .input-wrapper input, textarea {
+      width: 500px;
+      background: #D9D9D9;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 10px;
+}
+
+.input-form form .input-wrapper textarea {
+      resize: none;
+}
+
+.input-form form .input-wrapper textarea::-webkit-scrollbar {
+      display: none;
+}
+
+.input-form form .input-button {
+      background-color: #E7EE95;
+      padding: 10px 40px;
+      border-radius: 13px;
+      font-weight: 600;
+}
+
+/* ===== DATA ===== */
+
+.container-data {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+}
+
+.container-data .item-data {
+      width: 1200px;
+      background-color: #E8CCCC;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+      border-radius: 10px;
+}
+
+.container-data .item-data .content-data {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+}
+
+.container-data .item-data .content-data img {
+      width: 400px;
+      border-radius: 10px;
+}
+
+.container-data .item-data .content-data h1 {
+      margin-bottom: 50px;
+}
+
+.container-data .item-data .delete-button {
+      background-color: transparent;
+      font-weight: 900;
+      font-size: 24px;
+      color: red;
+}
